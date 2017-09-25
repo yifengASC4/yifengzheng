@@ -20,11 +20,12 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0 0 35px;
+  margin: 0 0 55px;
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
+  font-size: 56px;
 }
 p {
   margin: 0 0 25px;
@@ -43,6 +44,10 @@ a {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+}
+.info{
+  float: left;
+  margin: 55px 230px 0px 230px;
 }
 a:hover,
 a:focus {
@@ -223,8 +228,8 @@ a:focus {
 }*/
 .about-section{
   width: 100%;
-  height: 500px;
-  padding-bottom: 400px;
+  height: 400px;
+  padding-bottom: 200px;
   padding-top: -100px;
   text-align: center;
   color: goldenrod;
@@ -238,7 +243,7 @@ a:focus {
 .download-section {
   width: 100%;
   /*padding: 50px 0;*/
-  height: 550px;
+  height: 400px;
 
   color: goldenrod;
   /*background: url("http://www.wallpapersbyte.com/wp-content/uploads/2015/07/Binary-Numbers-0-1-Code-Matrix-Blue-Hack-Pattern-Abstract-WallpapersByte-com-3840x2400.jpg") no-repeat center center scroll;*/
@@ -249,7 +254,7 @@ a:focus {
   -o-background-size: cover;
 }
 .informaton{
-  padding-bottom: 400px;
+  padding-bottom: 200px;
 }
 /*#map {
   width: 100%;
@@ -335,5 +340,7 @@ body {
 #profilePic{
   width: 300px;
   border: 5px goldenrod ridge;
-  float: left;
+}
+#copyRight{
+  margin-top: 10%;
 }
